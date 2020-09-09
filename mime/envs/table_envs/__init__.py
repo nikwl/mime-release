@@ -8,6 +8,11 @@ from mime.envs.table_envs.tower_env import *
 from mime.envs.table_envs.pour_env import *
 from mime.envs.table_envs.bowl_env import *
 
+from mime.envs.table_envs.stir_env import *
+from mime.envs.table_envs.vr_play_env import *
+
+# For debugging
+disp_envs = False
 
 environments = {
     'Pick': dict(max_episode_steps=200),
@@ -15,6 +20,9 @@ environments = {
     'Tower': dict(max_episode_steps=1500),
     'Pour': dict(max_episode_steps=400),
     'Bowl': dict(max_episode_steps=600),
+    # New
+    'Stir': dict(max_episode_steps=600),
+    'VRPlay': dict(max_episode_steps=600),
 }
 
 extra_env_args = {
@@ -33,6 +41,9 @@ env_combinations = list(
 
 cam_resolution = (240, 240)
 gui_resolution = (640, 480)
+
+if disp_envs:
+    print('Displaying callable environments:')
 
 for env, kwargs in environments.items():
     orig_env_horizon = kwargs['max_episode_steps']
@@ -78,6 +89,12 @@ for env, kwargs in environments.items():
                 kwargs=env_args,
                 reward_threshold=2.0,
                 **kwargs)
+            if disp_envs:
+                print('Env_id: {id} \nEnv_entry_point: {entry_point} \nEnv_kwargs: {k1}{k2} \n'.format(
+                    id='{}Env-v0'.format(env_name),
+                    entry_point='mime.envs.table_envs:{}Env'.format(env_file),
+                    k1=str(env_args),
+                    k2=str(kwargs)))
         else:
             env_args = dict(
                 robot_type=robot,
@@ -95,3 +112,9 @@ for env, kwargs in environments.items():
                 kwargs=env_args,
                 reward_threshold=2.0,
                 **kwargs)
+            if disp_envs:
+                print('Env_id: {id} \nEnv_entry_point: {entry_point} \nEnv_kwargs: {k1}{k2} \n'.format(
+                    id='{}Env-v0'.format(env_name),
+                    entry_point='mime.envs.table_envs:{}CamEnv'.format(env_file),
+                    k1=str(env_args),
+                    k2=str(kwargs)))

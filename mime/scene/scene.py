@@ -13,6 +13,7 @@ class Scene(object):
         self._load_egl = load_egl
         self._plugin = None
         self.client_id = None
+        self._conn_kwargs = None
 
     @property
     def simulation_step(self):
@@ -49,19 +50,26 @@ class Scene(object):
         for modder in self._modders:
             modder.reset(self, self.np_random)
 
-    def renders(self, gui=False, shared=False):
+    def renders(self, gui=False, shared=False, connection_mode=None, kwargs=None):
         """
         Show or not GUI window for your scene (hide by default).
         Args:
             gui - create standalone GUI window
             shared - connect to external server (use to connect VR server)
+            connection_mode - pass a conection mode directly, if not none will
+                override the other two arguments
         """
-        if shared:
-            self._conn_mode = pb.SHARED_MEMORY
-        elif gui:
-            self._conn_mode = pb.GUI
+        if connection_mode is not None:
+            self._conn_mode = connection_mode
+            if kwargs is not None:
+                self._conn_kwargs = kwargs
         else:
-            self._conn_mode = pb.DIRECT
+            if shared:
+                self._conn_mode = pb.SHARED_MEMORY
+            elif gui:
+                self._conn_mode = pb.GUI
+            else:
+                self._conn_mode = pb.DIRECT
 
     def reset(self, np_random):
         if not self._connected:
@@ -74,7 +82,11 @@ class Scene(object):
         options = ''
         if pb.GUI == self._conn_mode:
             options = '--width={} --height={}'.format(*self._gui_resolution)
-        self.client_id = pb.connect(self._conn_mode, options=options)
+        # In the case of UDP or TCP, you must also pass the hostName
+        if self._conn_kwargs is not None:
+            self.client_id = pb.connect(self._conn_mode, options=options, **self._conn_kwargs)
+        else:
+            self.client_id = pb.connect(self._conn_mode, options=options)
         if self._load_egl:
             print('Loading egl plugin...')
             import pkgutil

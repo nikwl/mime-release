@@ -141,7 +141,7 @@ class TableScene(Scene):
     def is_task_failure(self):
         # check if joint error (target-real) not too large
         err = self.robot.arm.controller.joints_error
-        if not np.allclose(err, 0.0, atol=0.1):
+        if not np.allclose(err, 0.0, atol=0.5):
             return True, 'Joint error too large.'
         return False, ''
 

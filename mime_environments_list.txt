@@ -1,0 +1,730 @@
+Displaying callable environments:
+Env_id: UR5-PickEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 200} 
+
+Env_id: UR5-PickCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 200} 
+
+Env_id: UR5-EGL-PickCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 200} 
+
+Env_id: UR5-PickRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 200} 
+
+Env_id: UR5-EGL-PickRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 200} 
+
+Env_id: UR5-Pick5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 200} 
+
+Env_id: UR5-EGL-Pick5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 200} 
+
+Env_id: UR5-Pick10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 200} 
+
+Env_id: UR5-EGL-Pick10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 200} 
+
+Env_id: UR5-Pick15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 200} 
+
+Env_id: UR5-EGL-Pick15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 200} 
+
+Env_id: UR5-Pick20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 200} 
+
+Env_id: UR5-EGL-Pick20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 200} 
+
+Env_id: UR5-Short-PickEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-PickCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-PickCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-PickRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-PickRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Pick5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Pick5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Pick10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Pick10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Pick15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Pick15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Pick20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Pick20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PickCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-PushEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 800} 
+
+Env_id: UR5-PushCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 800} 
+
+Env_id: UR5-EGL-PushCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 800} 
+
+Env_id: UR5-PushRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 800} 
+
+Env_id: UR5-EGL-PushRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 800} 
+
+Env_id: UR5-Push5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 800} 
+
+Env_id: UR5-EGL-Push5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 800} 
+
+Env_id: UR5-Push10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 800} 
+
+Env_id: UR5-EGL-Push10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 800} 
+
+Env_id: UR5-Push15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 800} 
+
+Env_id: UR5-EGL-Push15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 800} 
+
+Env_id: UR5-Push20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 800} 
+
+Env_id: UR5-EGL-Push20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 800} 
+
+Env_id: UR5-Short-PushEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-PushCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-PushCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-PushRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-PushRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Push5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Push5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Push10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Push10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Push15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Push15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Push20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Push20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PushCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-TowerEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 1500} 
+
+Env_id: UR5-TowerCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1500} 
+
+Env_id: UR5-EGL-TowerCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1500} 
+
+Env_id: UR5-TowerRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1500} 
+
+Env_id: UR5-EGL-TowerRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1500} 
+
+Env_id: UR5-Tower5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1500} 
+
+Env_id: UR5-EGL-Tower5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1500} 
+
+Env_id: UR5-Tower10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1500} 
+
+Env_id: UR5-EGL-Tower10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1500} 
+
+Env_id: UR5-Tower15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1500} 
+
+Env_id: UR5-EGL-Tower15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1500} 
+
+Env_id: UR5-Tower20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1500} 
+
+Env_id: UR5-EGL-Tower20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1500} 
+
+Env_id: UR5-Short-TowerEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-TowerCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-TowerCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-TowerRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-TowerRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Tower5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Tower5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Tower10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Tower10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Tower15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Tower15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Tower20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Tower20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:TowerCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-PourEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 400} 
+
+Env_id: UR5-PourCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 400} 
+
+Env_id: UR5-EGL-PourCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 400} 
+
+Env_id: UR5-PourRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 400} 
+
+Env_id: UR5-EGL-PourRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 400} 
+
+Env_id: UR5-Pour5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 400} 
+
+Env_id: UR5-EGL-Pour5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 400} 
+
+Env_id: UR5-Pour10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 400} 
+
+Env_id: UR5-EGL-Pour10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 400} 
+
+Env_id: UR5-Pour15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 400} 
+
+Env_id: UR5-EGL-Pour15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 400} 
+
+Env_id: UR5-Pour20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 400} 
+
+Env_id: UR5-EGL-Pour20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 400} 
+
+Env_id: UR5-Short-PourEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-PourCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-PourCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-PourRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-PourRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Pour5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Pour5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Pour10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Pour10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Pour15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Pour15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Pour20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Pour20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:PourCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-BowlEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-BowlCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-BowlCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-BowlRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-BowlRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-Bowl5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-Bowl5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-Bowl10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-Bowl10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-Bowl15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-Bowl15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-Bowl20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-Bowl20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-Short-BowlEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-BowlCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-BowlCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-BowlRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-BowlRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Bowl5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Bowl5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Bowl10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Bowl10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Bowl15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Bowl15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Bowl20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Bowl20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:BowlCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-StirEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-StirCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-StirCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-StirRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-StirRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-Stir5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-Stir5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-Stir10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-Stir10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-Stir15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-Stir15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-Stir20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-Stir20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-Short-StirEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-StirCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-StirCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-StirRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-StirRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Stir5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Stir5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Stir10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Stir10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Stir15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Stir15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-Stir20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-Stir20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:StirCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-VRPlayEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-VRPlayCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-VRPlayCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-VRPlayRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-VRPlayRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-VRPlay5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-VRPlay5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-VRPlay10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-VRPlay10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-VRPlay15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-VRPlay15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-VRPlay20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 600} 
+
+Env_id: UR5-EGL-VRPlay20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 600} 
+
+Env_id: UR5-Short-VRPlayEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayEnv 
+Env_kwargs: {'robot_type': 'UR5', 'randomize': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-VRPlayCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-VRPlayCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': False, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-VRPlayRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-VRPlayRandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 1, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-VRPlay5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-VRPlay5RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 5, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-VRPlay10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-VRPlay10RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 10, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-VRPlay15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-VRPlay15RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 15, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+
+Env_id: UR5-Short-VRPlay20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': False}{'max_episode_steps': 1} 
+
+Env_id: UR5-ShortEGL-VRPlay20RandCamEnv-v0 
+Env_entry_point: mime.envs.table_envs:VRPlayCamEnv 
+Env_kwargs: {'robot_type': 'UR5', 'view_rand': True, 'gui_resolution': (640, 480), 'cam_resolution': (240, 240), 'num_cameras': 20, 'randomize': True, 'load_egl': True}{'max_episode_steps': 1} 
+pybullet build time: Dec 27 2019 02:26:29
+

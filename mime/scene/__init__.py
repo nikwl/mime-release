@@ -10,3 +10,4 @@ from .shape import CollisionShape, VisualShape
 from .texture import Texture
 from .universal_robot import UR5
 from .vr import VR
+from .vr_ros import VRROS

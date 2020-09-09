@@ -15,7 +15,9 @@ class TableEnv(SceneEnv):
             tool_orientation=scene.robot.arm.tool.state.position[1],
             linear_velocity=scene.robot.arm.tool.state.velocity[0],
             angular_velocity=scene.robot.arm.tool.state.velocity[1],
-            grip_velocity=scene.robot.gripper.controller.state)
+            grip_velocity=scene.robot.gripper.controller.state,
+            grip_joint_position=scene.robot.gripper.controller.motor_position,
+            grasped=scene.robot.gripper.controller.grasped())
 
         return obs_dic
 
